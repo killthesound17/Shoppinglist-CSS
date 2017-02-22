@@ -1,0 +1,106 @@
+* {
+    transition: all .1s ease-in;
+    font-family: arial;
+}
+
+/* ------------------------------------ Header ------------------------------- */
+
+header {
+    background-color: #4a4f56;
+    margin: 0 auto;
+}
+.hello {
+    width: 800px;
+    margin: 0 auto 40px;
+    text-align: center;
+    padding: 28px;
+    color: #e07b7d;
+}
+.hello h1 {
+    margin: 0 auto;
+}
+.hello h2 {
+    margin: 0 auto;
+}
+
+/* ---------------------------------- Body ------------------------------------*/
+
+body {
+    background-color: #3b3f45;
+}
+.list {
+    width: 800px;
+    margin: 0 auto;
+}
+.list ul {
+    padding-left: inherit;
+}
+.list li {
+    list-style: none;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 110%;
+    color: white;
+}
+.list li:nth-child(1n) {
+    background-color: #88839e;
+}
+.list li:nth-child(2n) {
+    background-color: #7a7593;
+}
+.list li:hover {
+    background-color: #625e77;
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+.list li:active {
+    background-color: #e07b7d;
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: #c0cbd6;
+}
+.pickles label:after {
+    content: "(for the next lesson about CSS)";
+    font-size: 80%;
+    color: #c0cbd6;
+}
+.apples label:after {
+    content: "(for more manipulations)";
+    font-size: 80%;
+    color: #c0cbd6;
+}
+.oranges label:after {
+    content: "(because they are awesome)";
+    font-size: 80%;
+    color: #c0cbd6;
+}
+.plates label:after {
+    content: "(hm.. they always dissapear)";
+    font-size: 80%;
+    color: #c0cbd6;
+}
+.sake label:after {
+    content: "(for my friends)";
+    font-size: 80%;
+    color: #c0cbd6;
+}
+
+/*---------------------------------Appetite -----------------------------------*/
+
+.appetite {
+    width: 800px;
+    margin: 40px auto;
+    background-color: #4a4f56;
+    text-align: center;
+    /*padding: 28px;*/
+    color: #e07b7d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.appetite h2 {
+    margin: 0 auto;
+}
